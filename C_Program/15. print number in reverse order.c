@@ -8,10 +8,11 @@ int main()
     scanf("%d",&num);
     while(num>0)
     {
-        rem=num%10;      
-        rev=rev*10+rem;
-        num=num/10;    
+        rem=num%10;   // get last digit of number   
+        rev=rev*10+rem;// add digit to reverse number
+        num=num/10;    //remove last digit from number    
     }
     printf("Reverse Number = %d",rev);
 }
+
 

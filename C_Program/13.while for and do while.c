@@ -7,6 +7,7 @@ main()
 
     // while loop
     printf("Numbers from 1 to 10 using while loop:\n");
+	// while loop → Condition is checked first, then loop executes.
     i = 1;
     while (i <= 10) 
 	{
@@ -15,6 +16,7 @@ main()
     }
     printf("\n\n");
     // for loop
+	//for loop → Initialization, condition, and increment in one line.
     printf("Numbers from 1 to 10 using for loop:\n");
     for (i = 1; i <= 10; i++)
 	 {
@@ -22,6 +24,7 @@ main()
     }
 	 printf("\n\n");
     // do-while loop
+	// do-while loop → Executes at least once, condition checked later.
     printf("Numbers from 1 to 10 using do-while loop:\n");
     i = 1;
     do {
@@ -30,4 +33,5 @@ main()
     } while (i <= 10);
     printf("\n");
 }
+
 

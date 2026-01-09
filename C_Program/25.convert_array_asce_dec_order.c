@@ -16,6 +16,7 @@ int main()
         {
             if(arr[i]>arr[j])
             {
+			// If current element is greater than next element, swap them
                 temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
@@ -32,10 +33,12 @@ int main()
     // Sorting in Descending Order
     for(i=0;i<5;i++)
     {
+    // Inner loop compares selected element with remaining elements	
         for(j=i+1;j<5;j++)
         {
             if(arr[i]<arr[j])
             {
+			// If current element is smaller than next element, swap them
                 temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
@@ -49,4 +52,3 @@ int main()
         printf("%d ",arr[i]);
     }
 }
-

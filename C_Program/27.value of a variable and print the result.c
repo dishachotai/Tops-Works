@@ -3,11 +3,12 @@
 #include <stdio.h>
 main() 
 {
-    int num = 10;       
-    int *ptr;           
-    ptr = &num;         
+    int num=10;       
+    int *ptr;                // declare a pointer variable to store address of an integer
+       
+    ptr=&num;         
     printf("Original value of num: %d\n", num);
-    *ptr = 25;          
+    *ptr=25;            // change value at the memory location pointed by ptr
+          
     printf("Modified value of num: %d\n", num);
 }
-

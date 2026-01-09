@@ -1,6 +1,7 @@
 //Write a C program to check if a number is even or odd using an if-else
 //statement. Extend the program using a switch statement to display the month
-//name based on the user’s input (1 for January, 2 for February, etc.).
+//name based on the userâ€™s input (1 for January, 2 for February, etc.).
+// 1 step enter number than check even or add then after enter months e.g 4 output is april
 #include<stdio.h>
 main()
 {
@@ -58,3 +59,4 @@ main()
 		printf("Invalid month number!");
 	}
 }
+
